@@ -1,0 +1,7 @@
+import sys
+
+lines = file(sys.argv[1], 'r')
+
+for line in lines:
+    age = int(line.rstrip())
+    print age, type(age)
